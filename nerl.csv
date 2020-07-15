@@ -1,0 +1,24 @@
+Name,Lat.,Long.,Ground Altitude (m MSL),Radar Height (m AGL),Radar Altitude (ft AMSL),Model,Range (NM),Dish Size (cm),Rotation Speed,Radar Floor Slope (ft/NM),Beam Width,Pulse Width,Max Angle,Sources,Other
+Allanshill (10) CMB (13),N057.38.35.040 (13),W002.09.56.220 (13),,,,Raytheon ASR-10SS & co-located Mode S (13),60 (12),,,,,,,,Used with Perwinnes at Aberdeen airport for ATC (11)
+"Bovingdon (4,7,14)",N051.42.32.400 (7),W000.32.27.900 (7),,,,,,,,,,,,,
+Burrington CMB (7),N050.56.03.240 (7),W003.59.06.960 (7),,,,,,,,,,,,,
+"Claxby CMB (5,7)",N053.27.00.300 (5),E000.18.29.700 (5),,,,,,,,,,,,,
+"Clee Hill CMB (5,7)",N052.23.53.760 (5),W002.35.50.940 (5),,,,,,,,,,,,,
+Cumbernauld PSR – Infill (8),N055.56.21.430 (8),W004.03.26.720 (8),,,,,,,,,,,,,Mitigates Clyde Wind farm impact (8)
+Cromer PSR (1),N052.54.37.500 (16),E001.20.58.920 (16),,,,Raytheon ASR10-SS (1),60 (1),10,,,,,,,
+"Debden PSR (1,5,7)",N051.59.24.660 (5),E000.15.49.740 (5),,,,Raytheon ASR23-SS (1),200 (1),23,,,,,,,
+"Debden SSR (5,7)",N051.59.24.660 (5),E000.15.49.740 (5),,,,,,,,,,,,,
+Edinburgh PSR (8),See (8),See (8),28.5 (2),23.4 (2),170,,,,,,,,,,
+Glasgow PSR (8),See (8),See (8),6.0 (2),19.1 (2),82.3,,,,,,,,,,Infill to mitigate Harryburn turbines (8)
+Heathrow 10cm CMB (7),N051.27.37.440 (7),W000.26.22.620 (7),,,,,,10 (7),,,,,,,
+"Gatwick CMB (6,14)",N051.08.46.440 (15,W000.10.37.800 (15),,,,,,10 (6),,,,,,,Includes secondary radar – see https://business.gatwickairport.com/b2b/airside-operations/aerodrome-safeguarding/
+"Great Dun Fell CMB (3,5,7,8)",N054.41.02.820 (3),W002.27.03.300 (3),,,,,>130km (9),,,,,,,,
+Kincardine PSR – Infill (8),N056.04.18.060 (8),W003.43.36.480 (8),,,,,,,,,,,,,Owned and operated by Sottish Power RenewablesLtd (SPR) (8)
+"Lowther Hill PSR (2,3,5,8)",N055.22.39.780 (3),W003.45.10.920 (3),722.1 (2),15.9 (2),2421,Raytheon ASR23-SS (13),,,,,,,,,Part of RM update trial in 2011 (13)
+"Lowther Hill SSR (2,3,5,8)",N055.22.39.780 (3),W003.45.10.920 (3),722.1 (2),20.9 (2),2438,Raytheon ASR23-SS (13),,,,,,,,,
+Manchester CMB (5),N053.20.27.060 (5),W002.16.59.880 (5),,,,,,,,,,,,,
+"Perwinnes CMB (3,8)",N057.12.44.160 (3),W002.07.51.240 (3),,,,,,,,,,,,,
+Pease Pottage (7),N051.05.00.240 (7),W000.12.51.960 (7),,,,,,,,,,,,,
+St Annes CMB (5),N053.46.07.920 (5),W002.59.29.100 (5),,,,,,,,,,,,,
+Stansted CMB (7),N051.53.13.980 (7),E000.13.47.880 (7),,,,,,,,,,,,,
+"Tiree CMB (3,8)",N056.27.19.620 (3),W006.55.23.220 (3),,,,,,,,,,,,,
