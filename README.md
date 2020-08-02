@@ -30,3 +30,16 @@ Special indexes are given below:
 
 
 Most of the sources used are from wind farm planning documents.
+
+## Additional Information
+
+Luton APC uses the Stansted 10 cm source primarily with the Debden 23 cm source
+as the standby (see
+https://www.airproxboard.org.uk/uploadedFiles/Content/Standard_content/Analysis_files/BlueBook12.pdf
+page 401). Essex uses the LTCC Multi-Track Radar feed
+(https://www.airproxboard.org.uk/uploadedFiles/Content/Standard_content/Airprox_report_files/2019/Airprox%20Report%202019112.pdf),
+the Stansted ATM did use the Stansted 10 cm radar although this may have now
+changed (
+https://www.airproxboard.org.uk/uploadedFiles/Content/Standard_content/Airprox_report_files/2019/Airprox%20Report%202019207.pdf).
+Cambridge likely use their own primary radar (AR15) and the Debden SSR source
+(https://www.airproxboard.org.uk/uploadedFiles/Content/Standard_content/Airprox_report_files/2013/Airprox%20Report%202013012.pdf).

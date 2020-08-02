@@ -1,4 +1,5 @@
 Name,Lat.,Long.,Ground Altitude (m MSL),Radar Height (m AGL),Radar Altitude (ft AMSL),Model,Range (NM),Dish Size (cm),Rotation Speed,Radar Floor Slope (ft/NM),Beam Width,Pulse Width,Max Angle,Name
+EGSC PSR (34),N051.12.00 (30),E000.11.00 (30),,13.1 (30),,AR15(34),,,,,,,,
 EGMC PSR (1),,,,,,,,,,,,,,
 Prestwick PSR,See (2),See (2),18.0 (2),17.3 (2),116,,,,,,,,,
 Glasgow PSR,See (2),See (2),6.0 (2),19.1 (2),82.3,,,,,,,,,
