@@ -1,0 +1,18 @@
+/*  phpBB3 Stylesheet
+*   --------------------------------------------------------------
+*	Style name:			FLATBOOTS
+*	Developer:	        SiteSplat ( http://www.sitesplat.com/phpBB3 )
+*  --------------------------------------------------------------
+*/
+
+/*!
+* @import url("./vendors/bootstrap-select/css/bootstrap-select.min.css");
+* @import url("./font/font-awesome/css/font-awesome.min.css");
+* @import url("./font/iconmoon/style.min.css");
+*  
+* Former scripts here in that order after bootsrtap.css - Production only
+*/
+
+@import url("./vendors/bootstrap/css/bootstrap.min.css");
+@import url("misc.min.css");
+

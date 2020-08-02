@@ -1,0 +1,303 @@
+#nav_overlay
+{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	display: none;
+	top: 0;
+	left: 0;
+	background-color: #071920;
+    opacity: 0.5;
+    z-index: 99;
+    /*margin-top: 90px;*/
+    -webkit-transition: line-height 0.4s ease;
+    transition: line-height 0.4s ease;
+}
+
+body.mega-menu-open #nav_overlay {
+    display: block;
+}
+
+.header .menu>li>a {
+	/*font-family: "Hermes FB";*/
+	font-family: 'Roboto';
+}
+
+/*-------------> utils navigation */
+.transparent-dark .utils-menu a {
+    color: #121212;
+}
+
+.transparent-light .utils-menu a, .dark .utils-menu a {
+    color: #ffffff;
+}
+
+/*-------------> left navigation */
+ul#nav_left
+{
+    width: 100%;
+    font-family: 'Roboto';
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    font-size: 14px;
+}
+
+
+
+ul#nav_left li
+{
+	margin: 0 0 1px 0;
+    padding-left: 0;
+}
+ul#nav_left li a
+{
+	display: block;
+	padding: 2px 30px 2px 10px;
+	position: relative;
+}
+ul#nav_left li ul
+{
+	list-style: none;
+	margin: 1px 0 0 0;
+	padding: 0;
+	display: none;
+}
+ul#nav_left li.current_page_ancestor > ul, ul#nav_left li.current_page_item > ul
+{
+	display: block;
+}
+ul#nav_left li ul li a
+{
+	padding-left: 18px;
+}
+
+ul#nav_left li ul li ul li a
+{
+	padding-left: 36px;
+}
+ul#nav_left li ul li ul li ul li a
+{
+	padding-left: 45px;
+}
+ul#nav_left li ul li ul li ul li ul li a
+{
+	padding-left: 54px;
+}
+ul#nav_left li ul.no_indent li a
+{
+	padding-left: 10px;
+}
+/* link states */
+ul#nav_left li a
+{
+	color: #46c3d7;
+	background-color: #071920;
+		
+	display: block;
+	padding: 8px 30px 5px 10px;
+	position: relative;	
+	
+}
+
+ul#nav_left > li:first-child > a
+{
+	font-size: 18px;
+	background-color: #145569;
+	color: #FFFFFF;
+	background-image: url(../assets/images/hero-texture-bg.png);
+	background-repeat: repeat;	
+	
+}
+
+/*ul#nav_left li a.current {
+	
+	display: block;
+	padding: 8px 30px 5px 10px;
+	position: relative;		
+	
+}*/
+
+ul#nav_left li a:hover, ul#nav_left li a:focus, ul#nav_left li a.focus, ul#nav_left li a.current {
+	color: #071920;
+	background-color: #999;
+	background-image: url(../assets/images/hero-texture-bg.png);
+	background-repeat: repeat;
+}
+
+ul#nav_left li a.clickable.open .nav-ctrl:before, ul#nav_left li a.clickable.current .nav-ctrl:before {
+    font-family: FontAwesome;
+    content: "\f068";
+    font-size: 10px;
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    color: #FFFFFF;
+}
+ul#nav_left li a.clickable.open:hover .nav-ctrl:before, ul#nav_left li a.clickable.open:focus .nav-ctrl:before, ul#nav_left li a.clickable.open.focus .nav-ctrl:before {
+    color: #FFFFFF;
+}
+ul#nav_left li a.clickable .nav-ctrl:before, ul#nav_left li a.clickable.closed .nav-ctrl:before {
+    font-family: FontAwesome;
+    content: "\f067";
+    font-size: 10px;
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    color: #FFFFFF;
+}
+ul#nav_left li a.clickable.current .nav-ctrl:before, ul#nav_left li a.clickable:hover .nav-ctrl:before, ul#nav_left li a.clickable.closed:hover .nav-ctrl:before, ul#nav_left li a.clickable:focus .nav-ctrl:before, ul#nav_left li a.clickable.closed:focus .nav-ctrl:before {
+    color: #FFFFFF;
+}
+ul#nav_left li.current_page_ancestor a.current .nav-ctrl:before, ul#nav_left li.current_page_ancestor a.open .nav-ctrl:before {
+    font-family: FontAwesome;
+    content: "\f068";
+    font-size: 10px;
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    color: #FFFFFF;
+}
+ul#nav_left li.current_page_ancestor a.closed .nav-ctrl:before {
+    font-family: FontAwesome;
+    content: "\f067";
+    font-size: 10px;
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    color: #FFFFFF;
+}
+
+ul#nav_left li a.current {
+	background-color: #145569;
+	color: #FFFFFF;	
+}
+
+ul#nav_left li a:hover,
+ul#nav_left li a:focus,
+ul#nav_left li a.focus
+{
+    color: #fff;
+    background-color: #46c3d7;
+}
+
+ul#nav_left li ul li a,
+ul#nav_left li ul li ul li a
+{
+	color: #46c3d7;
+	background-color: #071920;	
+}
+ul#nav_left li ul li a:hover,
+ul#nav_left li ul li a:focus,
+ul#nav_left li ul li a.focus,
+ul#nav_left li ul li a.current,
+ul#nav_left li ul li ul li a:hover,
+ul#nav_left li ul li ul li a:focus,
+ul#nav_left li ul li ul li a.focus,
+ul#nav_left li ul li ul li a.current
+{
+	color:#FFFFFF;
+}
+
+
+/* list breadcrumb */
+ul.list_breadcrumb, ul.list_breadcrumb_bc
+{
+	display:block;
+	width:100%;
+	margin: 0 0 20px 0;
+	list-style: none;
+	overflow:hidden;
+	padding: 0;
+}
+
+ul.list_breadcrumb_bc {
+	margin: 10px 0 10px 0;	
+    -webkit-transition: background 0.4s ease, height 0.4s ease;
+    transition: background 0.4s ease, height 0.4s ease;	
+}
+
+@media (min-width: 1180px) {
+	ul.list_breadcrumb_bc {
+		margin: 15px 0 15px 0;	
+	}
+	.minimized ul.list_breadcrumb_bc {
+		margin: 10px 0 10px 0;	
+	}	
+}
+
+.blogContent ul.list_breadcrumb
+{
+	margin: 15px 0 20px 0;
+}
+
+ul.list_breadcrumb.smaller_margin {
+	margin: 0 0 15px 0;
+}
+ul.list_breadcrumb li
+{
+	display:block;
+	float:left;
+	margin: 0 5px 0 0;
+	padding:0;
+	background-repeat:no-repeat;
+	/*background-position:0 4px;*/
+    font-size: 12px;
+    line-height: 15px;
+}
+
+ul.list_breadcrumb_bc li
+{
+    font-size: 14px;
+    line-height: 16px;
+}
+
+ul.list_breadcrumb li.first
+{
+	padding:0;
+}
+ul.list_breadcrumb li.last
+{
+	background-position:0 -96px;
+}
+
+ul.list_breadcrumb.hide_last li.last {
+  display: none;
+}
+
+ul.list_breadcrumb li
+{
+	color:#46C3D7;
+}
+ul.list_breadcrumb li:before
+{
+    content: "/";
+    margin-right: 5px;
+	color:#46C3D7;
+}
+ul.list_breadcrumb li.first:before
+{
+    display: none;
+}
+ul.list_breadcrumb li a
+{
+	color: #071920;
+	font-weight: normal;
+}
+
+ul.list_breadcrumb.text-white li a, .reversed ul.list_breadcrumb li a
+{
+	color:#FFFFFF;
+}
+ul.list_breadcrumb li a:hover,
+ul.list_breadcrumb li a:focus
+{
+	color:#145569;
+}
+
+ul.list_breadcrumb_bc.text-white li a:hover,
+ul.list_breadcrumb_bc.text-white li a:focus
+{
+	color:#46C3D7;
+}

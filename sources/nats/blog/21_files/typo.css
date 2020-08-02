@@ -1,0 +1,212 @@
+
+/* ---------------------------------------- TYPO ---------------------------------------- */
+
+/*  Reusable classes to be applied as modifiers to existing DOM elements
+	to reduce the amount of repetition in style declarations */
+	
+/* --------------------------- Headings */
+.main-container h1,
+.main-container h2,
+.main-container h3,
+.main-container h4,
+.main-container h5,
+.main-container h6{
+	-webkit-text-stroke-width:0;
+	letter-spacing: 0;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	font-feature-settings: "liga" 0;
+    font-feature-settings: "liga1" off;	
+}
+
+.text-content h1, .h1,
+.text-content h2, .h2, 
+.text-content h3, .h3, 
+.text-content h4, .h4,
+.text-content h5, .h5,
+.text-content h6, .h6 {
+	font-weight:normal;
+	padding:0;
+	margin:0;
+}
+.text-content h1,.h1{
+	font-size:36px;
+	line-height:42px;	
+    font-family: "Roboto";
+    font-weight: 300;
+}
+.text-content h2,.h2{
+	font-size: 34px;
+	/*font-family: "Hermes FB";*/
+	font-family: 'Roboto';
+	font-weight: 300;
+	line-height:30px;
+	text-transform:none;
+	/*padding: 15px 0;*/
+	padding: 11px 0;
+}
+.text-content h3,.h3{
+	font-size:22px;
+	font-family: 'Roboto';
+	line-height:26px;
+}
+.text-content h4,.h4{
+	font-size:16px;
+	font-family: 'Roboto';
+	line-height:24px;
+	font-weight:bold;
+}
+.text-intro,.text-content .text-intro{
+	font-size: 26px; text-transform: none;
+	line-height: 34px;
+	font-family: 'Roboto';
+	font-weight: 300;
+	padding-bottom: 20px;
+}
+.text-semi-bold{
+	font-weight: 400;
+}
+.text-content .wp-caption-text {
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+}
+/* --------------------------- Text */
+.text-content dd,.text-content li,
+.main-container p, .p,
+.text-content{
+  color: #071920;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+}
+
+.text-large{
+	font-size: 50px;
+    font-family: "Roboto";
+    font-weight: 300;
+	line-height:1;
+	/*font-weight:normal;*/
+}
+
+.text-secondary-news{
+    font-family: "Roboto";
+    font-weight: 300;
+	font-size:24px;
+	line-height:32px;
+	margin:0;
+}
+
+@media (max-width: 1179px) {
+	.text-secondary-news {
+		max-height: 100px;
+		display: block;
+		overflow: hidden;
+	}
+}
+
+.text-twitter{
+    font-family: "Roboto";
+    font-weight: 300;
+	font-size:30px;
+	line-height:34px;
+}
+@media (max-width: 480px) {
+	.text-twitter {
+		font-family: "Roboto";
+		font-weight: 300;
+		font-size:24px;
+		line-height:26px;
+	}	
+}
+.text-post-info{
+	font-size:14px;
+	line-height:16px;
+}
+.text-post-tag a,.text-post-tag{
+	font-size:12px;
+	line-height:16px;
+	padding:7px 17px;
+	font-weight:400;
+	margin-right:2px;
+	text-transform:uppercase;
+	border-radius:1px;
+	-webkit-border-radius:1px;
+	-o-border-radius:1px;
+	display:inline-block;
+	border-color:#d0e6f3;
+	transition: inherit;
+}
+.text-post-tag:hover{
+	background-color: #145569;
+	color: #fff;
+	border-color:#145569;
+}
+
+@media (min-width: 1180px) {   
+	.text-post-tag a,.text-post-tag {     
+		margin-right:0; 
+	} 
+}
+
+@media (min-width: 1200px) {   
+	.text-post-tag a,.text-post-tag {     
+		margin-right:5px;
+	}
+}
+
+
+.text-x-small{
+	font-size:12px;
+	line-height:16px;
+	font-weight:normal;
+}
+.text-quote,
+.main-container blockquote, .main-container blockquote p {
+    font-family: "Roboto";
+    font-weight: 300;
+	font-size:28px;
+	line-height:32px;
+	padding-left:0;
+}
+.text-content blockquote:before,.text-quote:before{
+	display:none;
+}
+
+@media (min-width: 1180px) { 
+	.text-content h1,.h1{
+		font-size:40px;
+		line-height:44px;	
+	}
+	
+	.text-post-tag a,.text-post-tag{
+		padding: 3px 12px;
+		border-radius: 1px;
+		-webkit-border-radius: 1px;
+		-o-border-radius: 1px;
+	}
+}
+
+@media (min-width: 768px) { 
+	.text-large{
+		font-size:64px;	
+	}
+	.text-twitter{
+		font-size:30px;
+		line-height:32px;
+	}
+}
+
+.text-truncate {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 100%;					
+}
