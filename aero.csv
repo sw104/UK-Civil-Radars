@@ -1,11 +1,17 @@
-Name,Lat.,Long.,Ground Altitude (m MSL),Radar Height (m AGL),Radar Altitude (ft AMSL),Model,Range (NM),Dish Size (cm),Rotation Speed,Radar Floor Slope (ft/NM),Beam Width,Pulse Width,Max Angle,Name
-EGSC PSR (34),N051.12.00 (30),E000.11.00 (30),,13.1 (30),,AR15(34),,,,,,,,
-EGMC PSR (1),,,,,,,,,,,,,,
-Prestwick PSR,See (2),See (2),18.0 (2),17.3 (2),116,,,,,,,,,
-Glasgow PSR,See (2),See (2),6.0 (2),19.1 (2),82.3,,,,,,,,,
-Glasgow SSR,See (2),See (2),6.0 (2),22.1 (2),91.9,,,,,,,,,
-Edinburgh PSR,See (2),See (2),28.5 (2),23.4 (2),170,,,,,,,,,
-Edinburgh SSR,See (2),See (2),28.5 (2),26.5 (2),180,,,,,,,,,
-Heathrow PSR (4),See (4),See (4),,,,,,,,,,,,
-Heathrow SSR (4),See (4),See (4),,,,,,,,,,,,
-Farnborough PSR (4),,,,,,,,,,,,,,
+Name,Lat.,Long.,Ground Altitude (m MSL),Radar Height (m AGL),Radar Altitude (ft AMSL),Model,Range (NM),Dish Size (cm),Rotation Speed (rpm),Radar Floor Slope (ft/NM),Beam Width,Pulse Width,Max Angle,Mode S?,Notes
+EGSC PSR (34),N051.12.00 (30),E000.11.00 (30),,13.1 (30),,AR15(34),,,,,,,,,
+"EGMC PSR (1,17)",,,,,,ATCR-33S (17),,,,,,,,,
+Doncaster Sheffield PSR (39),,,,,,ASR-10SS (39),,,,,,,,,
+Doncaster Sheffield MSSR (39),,,,,,Condor 300 MSSR (39),,,,,,,,Y (39),
+Durham PSR (39),,,,,,Watchman (39),,10 (39),,,,,,,PSR only (39)
+Prestwick PSR,See (2),See (2),18.0 (2),17.3 (2),116,,,,,,,,,,
+Glasgow PSR,See (2),See (2),6.0 (2),19.1 (2),82.3,,,,,,,,,,
+Glasgow SSR,See (2),See (2),6.0 (2),22.1 (2),91.9,,,,,,,,,,
+Guernsey PSR&SSR,,,,,,STAR-2000 (17),60/80 (38),,15/12 (38),,2.3 (38),1 & 75 (38),,,
+Edinburgh PSR,See (2),See (2),28.5 (2),23.4 (2),170,,,,,,,,,,
+Edinburgh SSR,See (2),See (2),28.5 (2),26.5 (2),180,,,,,,,,,,
+Liverpool PSR (39),,,,,,ASR-10SS Mk2 ASDP (39),,,,,,,,,PSR only (39)
+Hibaldstow PSR (39),,,,,,STAR-2000 (39),60/80 (38),,15/12 (38),,,,,,PSR only & supports Doncaster Sheffield (39)
+Heathrow PSR (4),See (4),See (4),,,,,,,,,,,,,
+Heathrow SSR (4),See (4),See (4),,,,,,,,,,,,,
+Farnborough PSR (4),,,,,,,,,,,,,,,

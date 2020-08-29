@@ -35,3 +35,7 @@ no,name,Type,Year,path,url
 34,Airprox report 2011159,Airprox Report,2011,sources/airprox/2011159.pdf,https://www.airproxboard.org.uk/uploadedFiles/Content/Standard_content/Airprox_report_files/2011/Airprox%20Report%202011159.pdf
 35,Troston Loch wind farm EIA report volume 1 chapter 16,Aviation assessment,2019,sources/edf/troston-loch.pdf,https://www.edf-re.uk/file/243/download
 36,Enoch Hill Windfarm Radar Line of Sight Analysis,Aviation assessment,2020,sources/osprey/enoch-hill.pdf,https://www.group.rwe/-/media/RWE/documents/03-unser-portfolio-und-loesungen/innovation-und-technik/projektvorhaben/enoch-hill/volume-3-technical-appendices/appendix-V17A-radar-LOS-analysis.pdf
+37,radartutorial.eu Marconi S-511,Internet Site,Unknown,sources/radartutorial/S-511,https://www.radartutorial.eu/19.kartei/03.atc/karte010.en.html
+38,radartutorial.eu STAR-2000,Internet Site,Unknown,sources/radartutorial/STAR-2000,https://www.radartutorial.eu/19.kartei/03.atc/karte014.en.html
+39,"Annex III to Final Report, Revision of the SPI Regulation: RMT.0679 – Surveillance, performance and interoperability
+December 2017",EASA Report,2017,sources/easa/rmt0679.pdf,https://www.asktheeu.org/en/request/6814/response/21990/attach/7/Ares%202019%203139235%20Annex%20III%20to%20Final%20Report%20V1.0%2020171215.pdf?cookie_passthrough=1
