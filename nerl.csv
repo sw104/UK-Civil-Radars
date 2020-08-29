@@ -10,7 +10,7 @@ Name,Lat.,Long.,Ground Altitude (m MSL),Radar Height (m AGL),Radar Altitude (ft 
 "Debden PSR (1,5,7,39)",N051.59.24.660 (5),E000.15.49.740 (5),,,,Raytheon ASR23-SS (1),200 (1),23 (20),9.7 (29),,1.25 (23),1 & 100 (23),,,,
 "Debden SSR (5,7,39)",N051.59.24.660 (5),E000.15.49.740 (5),,,,,,,,,,,,Y (39),,
 Edinburgh PSR (8),See (8),See (8),28.5 (2),23.4 (2),170,NASR10 (17),60 (P),10 (D),,,,,,,,Watchman antenna and Sensis SPE 3000 transmitter etc (17) Not listed in (39)
-Fitfull Head SSR (39),,,,,,,,,,,,,,Y (39),,SSR only? (39)
+"Fitful Head SSR (39,40,41)",,,,,,,,,,,,,,Y (39),,SSR only (39) A.k.a Sumburgh (40) Was a Cossor Compass 9000 SSR in 1984 (41)
 "Gatwick CMB (6,14,39)",N051.08.46.440 (15,W000.10.37.800 (15),,30 (30),,Raytheon ASR10-SS (32),60 (D),10 (6),15 (D),,1.4 (24),1 & 100 (24),,Y (39),,Includes secondary radar see https://business.gatwickairport.com/b2b/airside-operations/aerodrome-safeguarding/
 "Glasgow S511 PSR (8,35,36)",N055.52.28.920 (8),W004.26.07.800 (8),6.0 (2),19.1 (2),82.3,"Watchman S511 (17, 36)",,10 (D),,,,"0.85 (37, D)",,Y (39),,"Infill to mitigate Harryburn turbines (8) Watchman antenna and Marconi S511 transmitter etc (17, 36). (39) lists as SSR only (for NATS/NERL)"
 "Glasgow Terma PSR (35,36)",,,,,,Dual Terma SCANTER 4002 (35),42.5 (25),,,,,,,,https://www.glasgowairport.com/media-centre/glasgow-airport-radar-project-allows-wind-farm-plans-to-take-flight/,Additional to existing PSR for wind farm mitigation (36)
@@ -23,7 +23,7 @@ Fitfull Head SSR (39),,,,,,,,,,,,,,Y (39),,SSR only? (39)
 Mount Gabriel SSR (39),,,,,,,,,,,,,,Y (39),,SSR only? (39)
 "Pease Pottage (7,39)",N051.05.00.240 (7),W000.12.51.960 (7),,,,Raytheon ASR-23SS (P),200 (P),23 (20),9.71 (29),,1.25 (DP),1 & 100 (DP),,Y (39),,
 "Perwinnes CMB (3,8,39)",N057.12.44.160 (3),W002.07.51.240 (3),,,,Raytheon ASR23-SS (27),200 (D),23 (D),,,1.25 (23),1 & 100 (23),,Y (39),,
-Sandwick Head SSR (39),,,,,,,,,,,,,,Y (39),,Two separate sites and SSR only? (39)
+"Sandwick Head SSR (39,42)",,,,,,,,,,,,,,Y (39),,"Two separate sites (39) and SSR only (39,42) "
 "St Annes CMB (5,39)",N053.46.07.920 (5),W002.59.29.100 (5),,25 (30),,Raytheon ASR10-SS (27),60 (DP),10 (27),,,1.4 (24),1 & 100 (24),,Y (39),,"Watchman according to 27, but likely an ASR-10SS"
 "Stansted CMB (7,39)",N051.53.13.980 (7),E000.13.47.880 (7),,28 (30),,Raytheon ASR10-SS (32),60 (DP),10 (19),15 (28),,1.5 (28),0.4 & 20 (28),,Y (39),,
 "Tiree CMB (3,8,39)",N056.27.19.620 (3),W006.55.23.220 (3),,,,,,,,,,,,Y (39),,
